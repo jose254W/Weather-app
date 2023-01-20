@@ -1,0 +1,82 @@
+.hover-weather {
+  width: 300px;
+  border-radius: 6px;
+  box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+  color: #fff;
+  background-color: #ffe6e8;
+  background-image: url("https://images.unsplash.com/photo-1450943218281-aff54ae7592d?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzM4NzU0NDA&ixlib=rb-4.0.3&q=80");
+  margin: 20px auto 0 auto;
+  padding: 0 20px 20px 20px;
+  cursor: pointer;
+  transition: all 4s;
+}
+.hover-weather:hover {
+  background-image: url("https://images.unsplash.com/photo-1532446997697-0b92fdc456fe?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzQxMjc1NjE&ixlib=rb-4.0.3&q=80");
+  background-image: contain;
+  color: #eee6ff;
+  width: 300px;
+  height: 300px;
+  opacity: 5;
+  transition: all 4s;
+  text-transform: uppercase;
+}
+
+.top,
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.weather-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  margin: 0;
+}
+
+.weather-icon {
+  width: 100px;
+}
+
+.temperature {
+  font-weight: 600;
+  font-size: 70px;
+  width: auto;
+  letter-spacing: -5px;
+  margin: 10px 0;
+}
+
+.details {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.parameter-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.parameter-label {
+  text-align: left;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.parameter-value {
+  text-align: right;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.parameter-label.top {
+  border-bottom: 1px solid #fff;
+}
